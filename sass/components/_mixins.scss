@@ -1,0 +1,22 @@
+@mixin textdata($color, $size : 14px, $align : left) {
+  $percent: alpha($color) * 100%;
+  $opaque: opacify($color, 1);
+  $solid-color: mix($opaque, $color, $percent);
+  color: $solid-color;
+  color: $color;
+  font-size: $size;
+  text-align: $align;
+}
+@mixin alpha-background-color($color, $background) {
+  $percent: alpha($color) * 100%;
+  $opaque: opacify($color, 1);
+  $solid-color: mix($opaque, $background, $percent);
+  background-color: $solid-color;
+  background-color: $color;
+}
+@mixin padding($padtop, $padright, $padbottom, $padleft){
+	padding-top: $padtop;
+	padding-right: $padright;
+	padding-bottom: $padbottom;
+	padding-left: $padleft;
+}
