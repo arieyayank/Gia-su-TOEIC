@@ -17,7 +17,7 @@ From the command line:
 
 1. Navigate to the File directory, then run `npm install`
 2. After the install process complete then run `npm start`
-3. For access html view white http://localhost:42600
+3. For access html view write  http://localhost:42600 in your browser
 4. for the development code run `gulp`
 5. To edit styles/css file you can edit the .scss files in the "sass" folder
 6. To edit HTML file you can edit the .jade files in the "template" folder
